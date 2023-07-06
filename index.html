@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario para inscribirse a un  curso en Platzi</title>
+    <h2> John Jairo Zambrano </h2>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <h1 class="centrartexto">------------------------------------------- FORMULARIO DE INSCRIPCIÓN----------------------------------------- </h1>
+    <table border = '1'>
+        <tr>
+                <th rowspan="4"> <img src= "Img\LogoPlatzi.png"> </th>
+                <td class="centrartexto"><h3> CREA TU CUENTA SIN COSTO</h3></td>
+                <th> Temáticas de cursos:_____________</th>  
+        </tr>
+        <tr>
+            <td rowspan="2" class="centrartexto"><h3>Accede a nuestro contenido, <br> 
+                crea rutas de estudio y participa en la comunidad </h3> </td>
+            <th>¿Que curso buscas?________________</th> 
+            <tr>
+                <th> Página: 1 de 1          </th>
+            </tr>
+        </tr>
+        <br>
+    </table>
+    
+    <!--FORMULARIO---->
+    <form class="form">
+        
+        <!--TITULO------------------------>
+        <h1 class="titulo">Registrarse</h1>
+        
+        <!--CAJAS-DE-ENTRADA-DE-DATOS------------------------------------------------>
+        <input class="cajas" type="text" placeholder="Nombre" required maxlength="30">
+        <input class="cajas" type="text" placeholder="Apellido" required maxlength="30">
+        <input class="cajas" type="email" placeholder="Email" required maxlength="30">
+        <input class="cajas" type="password" placeholder="Password" required maxlength="30">
+        
+        <!--TERMINOS-Y-CONDICIONES---------------------------------------------------------------------------------->
+        <p class="termino1"><input type="checkbox">  Estoy de acuerdo con <a class="termino2" href="">Terminos y Condiciones</a></p>
+        
+        <!--BOTON-DE-REGISTRARSE-------------------------->
+        <input type="submit" class="btn" value="REGISTRAR">
+        
+        <!--YA-TENGO-CUENTA----------------------------------------------------------->
+        <p class="tengo-cuenta"><a href="" class="tengo-cuenta">Ya tengo cuenta</a></p>
+        
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!----------------FORMULAARIO DE DATOS BASICOS PARA INSCRIBIRSE AL CURSO--------->
+
+    <h2 class="centrartexto">-------------------------------------------------- FORMULARIO DE DATOS PERSONALES PARA LA INSCRIPCIÓN---------------------------------- </h2>
+    <br>
+    <br>
+    <table border="1">
+        <tr>
+            <th>Completa los siguientes datos personales y luego continua eligiendo el plan que más te guste</th>
+        </tr>
+
+    </table>
+    <br>
+    <br>
+    <div id="page">
+
+        <div id="header"> 
+        </div>
+        
+        <div id="wrapper">
+        
+        <br>
+        
+        <hr style="color:red; background-color:red; width:50%;" />
+        
+        </div>
+        
+        <!-- fin menu -->
+        
+        <!-- cuerpo -->
+        
+        <div id="body">
+        
+        <form method="get" action="accion.html">
+        
+        Nombre: <input type="text" name="nombre" placeholder="nombre"/><br /><br><br>
+        
+        Apellidos: <input type="text" name="apellidos" placeholder="apellido" /><br /><br><br>
+        
+        Edad: <input type="text" name="edad" placeholder="edad"/><br /><br><br>
+
+        Dirección: <input type="text" name="direccion" placeholder="dirección"/><br /><br><br>
+        
+        Correo electrónico: <input type="text" name="correo" placeholder="correo"/><br /><br><br>
+        
+        Teléfono: <input type="text" name="telefono" placeholder="telefono"/><br /><br><br><br><br>
+        
+        Pais: <input type="text" name="pais" placeholder="pais"/><br /><br><br>
+        <button type="button">Guardar </button>
+      
+        </form>
+        
+        </div>
+        
+        <!-- fin cuerpo -->
+        
+        </div>
+        
+        <!-- fin contenedor -->
+        
+        <br /> <br /> <br />
+        
+        <div id="footer">
+    
+        
+        </div>
+        
+        </div>
+
+
+        <br>
+        <br>
+    
+        <!----------------FORMULAARIO PARA EL METODO DE PAGO--------->
+    
+        <h2 class="centrartexto">----------------------------------------------------------- FORMULARIO PARA EL METODO DE PAGO------------------------------------------------------- </h2>
+        <br>
+        <br>
+
+
+        <div id="page">
+
+            <div id="header"> 
+            </div>
+            
+            <div id="wrapper">
+            
+            <br>
+            
+            <hr style="color:red; background-color:red; width:50%;" />
+            
+            </div>
+            
+            <!-- fin menu -->
+            
+            <!-- cuerpo -->
+            
+            <div id="body">
+            
+            <form method="get" action="accion.html">
+            
+            Numero de identidad: <input type="text" name="identidad" placeholder="identidad" /><br /><br><br>
+            
+            Nombre del titular de la targeta: <input type="text" name="targeta" placeholder="targeta"/><br /><br><br>
+            
+            Número de targeta: <input type="text" name="numtargeta" placeholder="numtargeta" /><br /><br><br>
+    
+            <button type="button">Guardar </button>
+            </form>
+            
+            </div>
+            
+            <!-- fin cuerpo -->
+            
+            </div>
+            
+            <!-- fin contenedor -->
+            
+            <br /> <br /> <br />
+            
+            <div id="footer">
+        
+            
+            </div>
+            
+            </div>
+
+            
+            <h3>Seleciona la forma de pago</h3><br><br>
+
+            <form method="get" action="accion.html">
+                Un solo pago anual: <input type="radio" /><br /><br><br>
+                
+                Pago en 4 cuotas mensuales sin intereses: <input type="radio" /><br /><br><br>
+                
+        
+              
+                </form>
+                
+            <br>
+            <br>
+ 
+            <form method="get" action="accion.html">
+
+            <h3>Pagar con:</h3><br><br>
+
+            Pagar en Efectivo: <input type="radio" /><br /><br><br>
+            
+            Pagar con Paypal: <input type="radio" /><br /><br><br>
+            
+            Pagar con Bitcoin: <input type="radio"  /><br /><br><br>
+            <button type="button">Guardar </button>
+
+            </form>
+   
+    
+</body>
+</html>
